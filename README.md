@@ -1,8 +1,8 @@
-# Clínica Veterinaria - Gestión de Usuarios
+# Clínica Veterinaria - Gestión de Usuarios 🐾
 
 Este proyecto consiste en una página web para la gestión de usuarios de una clínica veterinaria. Permite realizar operaciones CRUD (Crear, Leer, Actualizar y Eliminar) en las entidades de propietarios, mascotas e historiales médicos. El sistema está desarrollado en PHP y utiliza una base de datos MySQL para almacenar la información.
 
-## Contenido del Repositorio
+## Contenido del Repositorio 📂
 
 El repositorio contiene los siguientes archivos y carpetas:
 
@@ -15,7 +15,7 @@ El repositorio contiene los siguientes archivos y carpetas:
 - `css/`, `js/`, `img/`: Carpetas que contienen recursos estáticos como hojas de estilo CSS, scripts JavaScript e imágenes.
 - `README.md`: Este archivo que proporciona información sobre el proyecto.
 
-## Funcionalidades
+## Funcionalidades 🛠️
 
 1. **Gestión de Propietarios**:
    - Agregar, modificar, eliminar y buscar propietarios.
@@ -30,7 +30,7 @@ El repositorio contiene los siguientes archivos y carpetas:
    - Agregar y buscar historiales médicos.
    - Listar todos los historiales médicos registrados en la base de datos.
 
-## Cómo Usar
+## Cómo Usar 📋
 
 1. Clona este repositorio en tu entorno local.
 2. Configura la conexión a la base de datos en el archivo `persist/DBConnection.class.php`.
@@ -38,10 +38,10 @@ El repositorio contiene los siguientes archivos y carpetas:
 4. Abre la aplicación en tu navegador web.
 5. Utiliza las diferentes funcionalidades disponibles para gestionar los usuarios de la clínica veterinaria.
 
-## Contribuciones
+## Contribuciones 🤝
 
 Las contribuciones son bienvenidas. Si encuentras algún problema o tienes una idea para mejorar la aplicación, no dudes en abrir un issue o enviar un pull request.
 
-## Autor
+## Autor 👩‍💻
 
 Este proyecto fue creado por **@AlejandraTech** ([GitHub](https://github.com/AlejandraTech)).
