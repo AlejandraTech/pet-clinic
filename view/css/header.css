@@ -1,0 +1,111 @@
+header {
+    float: left;
+    width: 100%;
+    line-height: 0em;
+}
+
+header img {
+    float: left;
+    height: 3em;
+}
+
+nav {
+    float: left;
+    width: 100%;
+}
+
+/*Strip the ul of padding and list styling*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*Create a horizontal list with spacing*/
+li {
+    float: left;
+    display: inline-block;
+}
+
+/*Style for menu links*/
+li a {
+    background: black;
+    color: white;
+    display: block;
+    min-width: 10em;
+    height: 2.5em;
+    text-align: center;
+    line-height: 2.5em;
+    text-decoration: none;
+    margin-right: 0.1em;    
+}
+
+/*Hover state for top level links*/
+li:hover a {
+    background: grey;
+}
+
+/*Style for dropdown links*/
+li:hover ul a {
+    background: lightgrey;
+    color: black;
+    height: 3em;
+    line-height: 3em;
+}
+
+/*Hover state for dropdown links*/
+li:hover ul a:hover {
+    background: darkgrey;
+    color: white;
+}
+
+/*Hide dropdown links until they are needed*/
+li ul {
+    display: none;
+}
+
+/*Make dropdown links vertical*/
+li ul li {
+    float: none;
+    display: block;
+}
+
+/*Prevent text wrapping*/
+li ul li a {
+    width: auto;
+    min-width: 10em;
+}
+
+/*Display the dropdown on hover*/
+ul li a:hover + .hidden, .hidden:hover {
+    display: block;
+    position: fixed;
+}
+
+/*Responsive styles*/
+@media screen and (max-width: 32em){
+    
+    header, section {
+        font-size: 60%;
+    }
+
+    /*Make dropdown links appear inline*/
+    ul {
+        position: static;
+    }
+    
+    /*Create vertical spacing*/
+    li {
+        margin-bottom: 0.1em;
+    }
+    
+    /*Make all menu links full width*/
+    ul li, li a {
+        width: 100%;
+    }
+
+    /*Display the dropdown on hover*/
+    ul li a:hover + .hidden, .hidden:hover {
+        position: static;
+    }
+}

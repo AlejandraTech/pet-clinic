@@ -1,0 +1,38 @@
+#content {
+    width: 100%;
+    float: left;
+    margin-top: 1em;
+}
+
+#info {
+    width: 100%;
+    float: left;
+    margin-top: 1em;
+    color: blue;
+}
+
+#error {
+    width: 100%;
+    float: left;
+    margin-top: 1em;
+    color: red;
+}
+
+label, input, select {
+    display: block;
+    margin: 1em;
+}
+
+input[type="submit"], input[type="reset"] {
+    display: inline;
+    margin: 0;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    display: inline;    
+}
+
+table, th, tr, td {
+    border: 0.1em solid black;
+    border-collapse: collapse;
+}
