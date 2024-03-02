@@ -27,7 +27,7 @@ El repositorio contiene los siguientes archivos y carpetas:
    - Asociar mascotas a sus respectivos propietarios.
 
 3. **Gestión de Historiales Médicos**:
-   - Agregar, modificar, eliminar y buscar historiales médicos.
+   - Agregar y buscar historiales médicos.
    - Listar todos los historiales médicos registrados en la base de datos.
 
 ## Cómo Usar
